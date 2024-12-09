@@ -21,7 +21,7 @@ public class Conexao {
     static String driver = "com.mysql.cj.jdbc.Driver";
     static String url = "jdbc:mysql://localhost:3306/ideal";
     static String usuario = "root";
-    static String senha = "root";
+    static String senha = "Pmsp@mudar123";
     
     private static Connection obterConexao() {
         try {
