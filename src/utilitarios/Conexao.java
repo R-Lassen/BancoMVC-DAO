@@ -23,7 +23,7 @@ public class Conexao {
     static String usuario = "root";
     static String senha = "Pmsp@mudar123";
     
-    private static Connection obterConexao() {
+    public static Connection obterConexao() {
         try {
             if (con == null){
                 //carregar o drive do mysql
